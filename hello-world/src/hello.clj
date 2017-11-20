@@ -76,3 +76,5 @@
 (defn start []
   (http/start (create-server)))
 
+(defn -main [& args]
+  (start))
